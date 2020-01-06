@@ -1,55 +1,65 @@
-import React, {Component} from 'react';
-import { Grid, Cell, Card, CardTitle, CardActions } from 'react-mdl';
+import React from 'react';
 import './ContactPage.css';
 
-class ContactPage extends Component{
-    render(){
-        return(
-            <div className="contact-body">
-               <div style={{width: '80%', margin: 'auto'}}>
-    <Grid className="demo-grid-ruler">
-        <Cell col={12}>1=contact</Cell>
-        
-    </Grid>
-    <Grid className="demo-grid-1">
-        <Cell col={6}>
-        <Card shadow={0} style={{width: '300px', height: '456px', margin: 'auto'}}>
-        <form>
-            <div>
-            <input className="contact-name" type="text" name="name" placeholder="name"/>
+function ContactPage() {
+    return (
+        <div className="contact-body">
+            <div className="contact-header-div">
+                <h1 className="contact-header">Contact Support</h1>
             </div>
-            <div>
-            <input className="contact-email" type="text" name="email" placeholder="email"/>
-            </div>
-            <div>
-            <input className="contact-message" type="text" name="text" placeholder="message"/>
-            </div>
-            <div>
-            <input className="send-btn" type="submit" value="Send Message" />
-            </div>
-    </form>
-    
-</Card>
 
-        </Cell>
-        <Cell col={6}>
-            <h2>OUR MEDIA</h2>
+            <div className="section">
+                <div className="contact-form">
+                <form>
+                    <div>
+                    <input className="contact-name" type="text" name="name" placeholder="name"/>
+                    </div>
+                    <div>
+                    <input className="contact-name" type="text" name="email" placeholder="email"/>
+                    </div>
+                    <div>
+                    <textarea className="contact-name" rows="7" placeholder="message"/>
+                    </div>
+                    <div>
+
+                    <div className="button-div">
+                        <input className="button" type="submit" value="Send Message" />
+                    </div>
+                    
+                    </div>
+                </form>
+                </div>
+
+                <div>
+                <h5>OUR MEDIA</h5>
             <p>
-                adhvgjhjshdgjsghljshgljsghlsghsljghg <br/>
+                Here you could try to tell us what you feel that we <br/>
+                can use to improve the website overall experiences <br/>
+                or choose to tell us anything you think we missed <br/>
+                Just click on any of our handles below.
             </p>
-        </Cell>
-        
-    </Grid>
-    <Grid className="demo-grid-1">
-        <Cell col={12}>contact</Cell>
-    
-        
-    </Grid>
-</div>      
- </div>
 
-        )
-}
-}
+            <h5>NEED TO TALK OVER VOICE</h5>
+            <p>
+               To show that we care, we decided to add our <br/>
+               contact numbers that you can reach us on between <br/>
+               9am and 7pm. Thanks for choosing us. <br/>
 
-export default ContactPage;
+               MAY NIGERIA BE EVER GREEN!
+            </p>
+            <p>+234 000 000 000</p>
+                </div>
+            </div>
+            <div className="section2">
+                <div className="section3">
+                    <p>Start connecting with people <br />in 10 minute</p>
+                </div>
+                <div className="create-button">
+                    <button>Create Account</button>
+                </div>
+            </div>
+        </div>
+    )
+}   
+
+export default ContactPage

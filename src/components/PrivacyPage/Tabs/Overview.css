@@ -1,0 +1,81 @@
+
+
+.overview-div p {
+    text-align: center;
+    padding: 20px;
+}
+.overview-header {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.section-header {
+    text-align: right;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+.overview-section {
+    margin: 10%;
+    display: flex;
+
+    width: 100%;
+    
+    flex-direction: row;
+    background: white;
+    
+}
+
+
+.section-div {
+    width: 30%;
+    margin-top: 20%;
+    padding: 15px;
+    margin-left: 5%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 7px 35px 100px rgba(0, 0, 0, 0.15)
+}
+.section-div2 {
+    width: 30%;
+    margin-top: 0%;
+    padding: 15px;
+    margin-left: 5%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 7px 35px 100px rgba(0, 0, 0, 0.15)
+}
+
+.section-paragraph {
+    color: grey;
+    line-height: 20px;
+    font-size: 25px;
+    text-align: leftb;
+}
+.section-head{
+    text-align: start;
+}
+.section-link a {
+    color: greenyellow!important;
+    
+}
+.section-link {
+    text-align: start;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .overview-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-div {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    
+}
