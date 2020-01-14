@@ -1,0 +1,26 @@
+.contact-body{
+    background-color:white;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+
+}
+.contact-div {
+    background: black;
+    padding: 70px;
+}
+.contact-header {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.useStyles{
+    color: black;
+    background-color: white;
+}
+.PrivateTabIndicator {
+    background-color: green;
+}
