@@ -8,7 +8,9 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import {Grid, Cell} from 'react-mdl';
 import grey from "@material-ui/core/colors/grey";
-import Overview from './Tabs/Overview';
+import Overview from './Tabs/Overview/Overview';
+import Terms from './Tabs/Terms/Terms';
+
 
 const primary800 = grey["100"];
 const primary700 = grey["800"]
@@ -103,6 +105,7 @@ export default function SimpleTabs() {
       </TabPanel>
       <TabPanel value={value} index={2}>
         Item Three
+        
       </TabPanel>
     </div>
     </div>
